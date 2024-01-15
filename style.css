@@ -1,0 +1,33 @@
+*{
+  font-family: "Noto Serif Bengali", serif;
+}
+li{
+  padding:1px;
+  margin:10px;
+  width:200px;
+ 
+}
+ul{
+  list-style-type: none;
+  display: flex ;
+  flex-direction:row;
+}
+.all{
+  border:1px solid black;
+  margin:10px;
+  
+  width:550px;
+  padding: 5px;
+  background-color: #FFFFF0;
+      /* You can also specify additional properties like background-size, background-position, etc. */
+  
+       /* Set a height for your div */
+}
+.qus{
+  font-size: 25px;
+  font-weight:bold;
+  
+}
+.options{
+  font-size: 22px;
+}
