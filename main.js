@@ -1,4 +1,19 @@
-
+var chm = document.getElementById("chm");
+var mode="w";
+chm.addEventListener("click",{
+  if(mode=="w"){
+    mode="b";
+    document.querySelector(".all").style.backgroundColor="#000";
+    document.querySelector(".li").style.color="#fff";
+    chm.innerHTML="Dark"
+  }else{
+    mode="w";
+    document.querySelector(".all").style.backgroundColor="#fff";
+    document.querySelector(".li").style.color="#000";
+    chm.innerHTML="Light"
+  }
+  
+});
 function downloadDivAsImage(divId, fileName) {
   // Use html2canvas to capture the content of the specified div
   html2canvas(document.getElementById(divId)).then(function (canvas) {
