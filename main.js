@@ -14,7 +14,10 @@ chm.addEventListener("click",()=>{
   }else{
     mode="w";
     document.querySelector(".all").style.backgroundColor="#fff";
-    document.querySelector("li").style.color="#000";
+    var aa =document.querySelectorAll("li");
+    for(var i=0;i<aa.length;i++){
+      aa[i].style.color="#000"
+    }
     document.querySelector(".qus").style.color="#EE4B2B";
     
     chm.innerHTML="light"
