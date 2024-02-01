@@ -8,6 +8,7 @@ chm.addEventListener("click",()=>{
     for(var i=0;i<aa.length;i++){
       aa[i].style.color="#fff"
     }
+    document.querySelector(".qus").style.color="#FFFF00";
     
     chm.innerHTML="Dark"
   }else{
