@@ -19,7 +19,7 @@ ul{
   width:550px;
   padding: 5px;
   color:#000;
-  background-color: #FFFFF0;
+  background-color: white;
       /* You can also specify additional properties like background-size, background-position, etc. */
   
        /* Set a height for your div */
@@ -27,8 +27,9 @@ ul{
 .qus{
   font-size: 25px;
   font-weight:bold;
+  color:#EE4B2B;
   
 }
 .options{
-  font-size: 22px;
+  font-size: 25px;
 }
