@@ -1,6 +1,6 @@
 var chm = document.getElementById("chm");
 var mode="w";
-chm.addEventListener("click",=>{
+chm.addEventListener("click",()=>{
   if(mode=="w"){
     mode="b";
     document.querySelector(".all").style.backgroundColor="#000";
