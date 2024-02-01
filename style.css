@@ -28,6 +28,7 @@ ul{
   font-size: 25px;
   font-weight:bold;
   color:#EE4B2B;
+  border-bottom:1px solid #ccc;
   
 }
 .options{
