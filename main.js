@@ -4,7 +4,11 @@ chm.addEventListener("click",()=>{
   if(mode=="w"){
     mode="b";
     document.querySelector(".all").style.backgroundColor="#000";
-    document.querySelector("li").style.color="#fff";
+    var aa =document.querySelectorAll("li");
+    for(var i=0;i<aa.length;i++){
+      aa[i].style.color="#fff"
+    }
+    
     chm.innerHTML="Dark"
   }else{
     mode="w";
