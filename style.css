@@ -13,7 +13,7 @@ ul{
   flex-direction:row;
 }
 .all{
-  border:1px solid black;
+  border:1px solid #ccc;
   margin:10px;
   
   width:550px;
@@ -25,10 +25,10 @@ ul{
        /* Set a height for your div */
 }
 .qus{
-  font-size: 25px;
+  font-size: 28px;
   font-weight:bold;
   color:#EE4B2B;
-  border-bottom:3px solid #ccc;
+  border-bottom:2px solid #ccc;
   
 }
 .options{
