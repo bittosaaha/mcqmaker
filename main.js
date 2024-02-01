@@ -4,6 +4,7 @@ chm.addEventListener("click",()=>{
   if(mode=="w"){
     mode="b";
     document.querySelector(".all").style.backgroundColor="#000";
+    document.querySelector(".all").style.border="1px solid #ccc";
     var aa =document.querySelectorAll("li");
     for(var i=0;i<aa.length;i++){
       aa[i].style.color="#fff"
@@ -18,6 +19,7 @@ chm.addEventListener("click",()=>{
     for(var i=0;i<aa.length;i++){
       aa[i].style.color="#000"
     }
+    document.querySelector(".all").style.border="1px solid #000";
     document.querySelector(".qus").style.color="#EE4B2B";
     
     chm.innerHTML="light"
