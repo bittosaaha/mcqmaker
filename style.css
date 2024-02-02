@@ -1,6 +1,11 @@
 *{
   font-family: 'Tiro Bangla', serif;
 }
+button{
+  font-family:monospace;
+  border:1px solid #ccc;
+  border-radius:3px;
+}
 li{
   padding:1px;
   margin:10px;
